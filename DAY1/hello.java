@@ -22,5 +22,13 @@ public class hello {
         
         int val2 = (int) val1;
         System.out.println("my new number is :" + val2);
+
+        int b = 10;
+        System.out.println(b++);
+        System.out.println(b);
+        System.out.println(++b);
+        System.out.println(--b);
+        System.out.println(b--);
+        System.out.println(b);
     }
 }
